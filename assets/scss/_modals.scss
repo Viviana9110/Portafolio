@@ -1,0 +1,70 @@
+.modal-content {
+    background-color: $gray2;
+    padding: 0;
+}
+
+.modal-subcontainer {
+    text-align: left;
+    font-family: 'Open Sans';
+    .modal-head {
+        padding: 0 3% 1%;
+    }
+    #resume-head {
+        color: $white;
+    }
+    #resume-body {
+        background-color: $white;
+    }
+    #resume-footer {
+        padding: 2% 0 0;
+        margin-top: 3%;
+        background-color: #ff7866;
+    }
+    article {
+        padding: 0 5%;
+    }
+    ul {
+        padding-left: 5%;
+    }
+    h1 {
+        padding-top: 5%;
+        font-size: 24pt;
+        font-weight: 700;
+    }
+    h6 {
+        font-size: 8pt;
+    }
+    a {
+        color: $blue;
+        text-decoration: none;
+        transition: color .3s ease;
+        &:hover {
+            color: $orange;
+        }
+    }
+    h3,
+    p {
+        font-size: 11pt;
+    }
+    h3 {
+        width: 100%;
+        background-color: #36bed9;
+        color: $white;
+        font-weight: bold;
+        padding: 1%;
+    }
+    h4 {
+        font-weight: bold;
+        font-size: 10pt;
+    }
+    li {
+        text-align: justify;
+    }
+    .circle-list {
+        list-style-type: circle;
+    }
+}
+
+.color-cleared {
+    background-color: $white;
+}

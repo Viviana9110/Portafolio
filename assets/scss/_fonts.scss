@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: $gray2;
+}
+
+.lead,
+.section {
+    letter-spacing: 0.3rem;
+}
+
+#header,
+#footer,
+.even {
+    color: $white;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.half-size {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+#portfolio .glyphicon {
+    font-size: 10rem;
+}

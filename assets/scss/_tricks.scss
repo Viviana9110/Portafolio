@@ -1,0 +1,27 @@
+hr {
+    height: 0.1rem;
+    max-width: 100%;
+    border: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $blue, rgba(0, 0, 0, 0));
+}
+
+.even {
+    hr {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $white, rgba(0, 0, 0, 0));
+    }
+}
+
+.section-hr {
+    margin-bottom: 5rem;
+    //height: 0.5rem;
+}
+
+.tooltip-inner {
+    background-color: $black;
+    color: $white;
+    font-size: 2rem;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: $black;
+}

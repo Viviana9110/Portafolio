@@ -1,0 +1,32 @@
+$amount: 3%;
+html,
+body {
+    position: relative;
+    background: linear-gradient($white, darken($white, $amount));
+}
+
+#footer {
+    background: linear-gradient($black, darken($black, $amount));
+}
+
+#name {
+    height: 5rem;
+}
+
+.even,
+#navbar {
+    background: linear-gradient($blue, darken($blue, $amount));
+}
+
+#footer {
+    padding: 3rem 0;
+}
+
+.section {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.image-container {
+    padding: 1rem;
+}

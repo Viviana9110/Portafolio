@@ -1,0 +1,17 @@
+//plugins
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '../../../node_modules/video.js/dist/video-js.min.css';
+//common
+@import 'vars';
+@import 'fonts';
+//sections
+@import 'header';
+@import 'navbar';
+@import 'layout';
+@import 'images';
+@import 'tricks';
+@import 'modals';
+@import 'form';
+@import 'buttons';
+@import 'responsive';
+@import 'video';
